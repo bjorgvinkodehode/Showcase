@@ -1,0 +1,115 @@
+body {
+  background-color: #1f1f1f;
+  background-position: top;
+  background-attachment: fixed;
+}
+.vignette {
+  display: flex;
+  background-image: url(posters/simple-logo-design-31.jpg);
+  background-size: 100px 225px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 225px;
+  position: relative;
+}
+h1,
+h2 {
+  font-family: "Roboto Flex", sans-serif;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #c1c1c1;
+}
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+  width: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  color: #c1c1c1;
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flexbox-item {
+  height: 225px;
+  width: 150px;
+  margin: 2px;
+  border: solid rgb(83, 83, 83) 2px;
+}
+.flexbox-item:hover {
+  margin: 2px;
+  border: solid rgb(228, 228, 228) 2px;
+}
+
+.flexbox-item-1 {
+  min-width: 150px;
+}
+.flexbox-item-2 {
+  min-width: 150px;
+}
+.flexbox-item-3 {
+  min-width: 150px;
+}
+.flexbox-item-4 {
+  min-width: 150px;
+}
+
+/* <!DOCTYPE html>  NOT A PART OF THE ASSIGNMENT IGNORE!
+<html>
+<head>
+<style> 
+/* Selects the second element of div siblings 
+div:nth-child(2) {
+  background: red;
+}
+
+/* Selects the second li element in a list 
+li:nth-child(2) {
+  background: lightgreen;
+}
+
+/* Selects every third element among any group of siblings *
+:nth-child(3) {
+  background: yellow;
+}
+
+ul :nth-child(3n+0) {color: red}
+</style>
+</head>
+<body>
+
+<div>
+  <p>This is some text.</p>
+</div>
+
+<div>
+  <p>This is some text.</p>
+</div>
+
+<div>
+  <p>This is some text.</p>
+</div>
+
+<ul>
+  <li>First list item</li>
+  <li>Second list item</li>
+  <li>Third list item</li>
+  <li>Fourth list item</li>
+  <li>Fifth list item</li>
+  <li>Second list item</li>
+  <li>Third list item</li>
+  <li>Fourth list item</li>
+  <li>Fifth list item</li>
+  <li>Second list item</li>
+  <li>Third list item</li>
+  <li>Fourth list item</li>
+  <li>Fifth list item</li>
+</ul>
+
+</body>
+</html> */
